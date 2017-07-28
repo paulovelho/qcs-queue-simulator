@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta name="author" content="PlatypusWeb">
+
+    <link href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row header">
+        <div class="span12">
+          QUEUE SIMULATOR
+        </div>
+      </div>
+
+      <div class="row queue-action">
+        <div class="span4">
+          <a href="#" class="button" onClick="newInQueue('a')">
+            Add to queue: <span class="user user-a"></span>
+          </a>
+        </div>
+        <div class="span4">
+          <a href="#" class="button" onClick="newInQueue('b')">
+            Add to queue: <span class="user user-b"></span>
+          </a>
+        </div>
+        <div class="span4">
+          <a href="#" class="button" onClick="newInQueue('c')">
+            Add to queue: <span class="user user-c"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="row queue">
+        <div class="span1 queue-start">&lt;&lt;</div>
+        <div class="span11 queue-show"></div>
+      </div>
+
+      <div class="row queue-action">
+        <div class="span12">
+          <a href="#" class="button bt-next" onClick="neeext()">
+            --- NEXT! ---
+          </a>
+        </div>
+      </div>
+    </div>    
+  </body>
+</html>

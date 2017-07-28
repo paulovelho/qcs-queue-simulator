@@ -1,0 +1,82 @@
+.queue-action {
+  padding-top: 20px;
+  height: 50px; 
+}
+.queue-action div {
+  text-align: center;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  color: #FFF;
+  background-color: #000;
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  color: #000;
+  background-color: #AAA;
+}
+.button.bt-next {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.queue div{
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+  margin: 0;
+  overflow: hidden;
+  height: 30px;
+  padding: 5px;
+}
+.queue-start {
+  color: #FFF;
+  font-weight: bold;
+  background-color: #777;
+  text-align: center;
+  line-height: 30px;
+}
+.queue .queue-show {
+  padding-left: 5px;
+}
+.queue .queue-show .user{
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.user {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  color: #000;
+  border: 1px solid #444;
+  border-radius: 10px;
+  text-align: center;
+}
+.user.user-a {
+  background-color: #F9FF9A;  
+}
+.user.user-a:before {
+  content: 'A';
+}
+.user.user-b {
+  background-color: #FF8E8E;
+}
+.user.user-b:before {
+  content: 'B';
+}
+.user.user-c {
+  background-color: #BFCFFF;
+}
+.user.user-c:before {
+  content: 'C';
+}
+
