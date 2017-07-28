@@ -3,6 +3,9 @@
 
 Simulating business rules for queue system.
 
+### demo:
+http://projetos.platypusweb.com.br/agertek/qcs/#
+
 ---
 ### how it works?
 
