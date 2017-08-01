@@ -17,8 +17,10 @@ function startQueue() {
 function newInQueue(el) {
   switch(el) {
     case "b":
-    case "c":
       addAfterXAfegaos(el, 2);
+      break;
+    case "c":
+      addAfterXAfegaos(el, 1);
       break;
     case "a":
     default:
