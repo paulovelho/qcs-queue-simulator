@@ -7,13 +7,20 @@
 }
 
 .header {
-  border-bottom: 1px solid black;
-  color: #FFF;
-  background-color: #000;
-  text-align: center;
+  border-bottom: 1px solid #777;
+  color: #000;
+  background-color: #FFF;
   line-height: 50px;
-  height: 50px;
+  height: 70px;
   font-size: 20px;
+}
+.header .title {
+  float: left;
+  line-height: 70px;
+}
+.header .logo {
+  height: 50px;
+  margin-top: 10px;
 }
 
 .button {
